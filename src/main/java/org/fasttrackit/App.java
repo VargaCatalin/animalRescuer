@@ -64,15 +64,15 @@ public class App
         //Proprietes of Food
 
        Food foodProprietes = new Food();
-        foodProprietes.nameFood = "Bones";
-        foodProprietes.foodWeight = 1000;
-        foodProprietes.priceFood = 50;
-        foodProprietes.foodstock = 5;
+        foodProprietes.name= "Bones";
+        foodProprietes.Weight = 1000;
+        foodProprietes.price = 50;
+        foodProprietes.stock = 5;
 
 
-        System.out.println("Food name are: " + foodProprietes.nameFood);
-        System.out.println("Food weight is: " + foodProprietes.foodWeight);
-        System.out.println("Price food is: " + foodProprietes.priceFood);
+        System.out.println("Food name are: " + foodProprietes.name);
+        System.out.println("Food weight is: " + foodProprietes.Weight);
+        System.out.println("Price food is: " + foodProprietes.price);
 
         ////////////////////////////////////////////////////////////////////
 
@@ -80,18 +80,23 @@ public class App
         //Proprietes of Vet
 
         Vet vetProprietes = new Vet();
-        vetProprietes.nameVet = "Dorel";
-        vetProprietes.ageVet = 55;
-        vetProprietes.genderVet = "Male";
-        vetProprietes.specializationVet = "Dentist";
+        vetProprietes.name = "Dorel";
+        vetProprietes.age = 55;
+        vetProprietes.gender = "Male";
+        vetProprietes.specialization = "Dentist";
         vetProprietes.priceTreatment = 100;
 
 
-        System.out.println("Vet name are: " + vetProprietes.nameVet);
-        System.out.println("Vet age is: " + vetProprietes.ageVet);
-        System.out.println("Vet gender are: " + vetProprietes.genderVet);
-        System.out.println("Vet specialization is: " + vetProprietes.specializationVet);
+        System.out.println("Vet name are: " + vetProprietes.name);
+        System.out.println("Vet age is: " + vetProprietes.age);
+        System.out.println("Vet gender are: " + vetProprietes.gender);
+        System.out.println("Vet specialization is: " + vetProprietes.specialization);
         System.out.println("Price treatment is: " + vetProprietes.priceTreatment);
+
+
+        Activity activityRecreation = new Activity();
+
+        activityRecreation.name = "Playing with kids";
 
 
 
@@ -100,11 +105,8 @@ public class App
         //Game members
 
         Game game = new Game();
-        game.dog = animalDog;
-        game.adopter = adopterProprietes;
-        game.vet = vetProprietes;
 
-        
+
 
 
 

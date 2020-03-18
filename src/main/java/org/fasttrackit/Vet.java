@@ -2,11 +2,11 @@ package org.fasttrackit;
 
 public class Vet {
 
-    String nameVet;
-    String specializationVet;
+    String name;
+    String specialization;
     // Can be a Dentist, Asistent
-    String genderVet;
-    int ageVet;
+    String gender;
+    int age;
     int priceTreatment;
     
 

@@ -3,10 +3,10 @@ package org.fasttrackit;
 public class Food {
 
 
-          String nameFood;
-          int priceFood;
-          int foodWeight;
-          int foodstock;
+          String name;
+          int price;
+          int Weight;
+          int stock;
 
 
 

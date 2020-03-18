@@ -9,7 +9,7 @@ public class Animal {
     int healthLevel;
     int hungerLevel;
     int hapinessLevel;
-    boolean medicalTreatment = true;
+    boolean medicalTreatment;
     String favouriteFood;
     String favouriteActivity;
     String unfavorableFood;
